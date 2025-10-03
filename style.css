@@ -1,0 +1,172 @@
+*{
+    font-family: "Jost", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "Fredericka the Great", serif;
+}
+
+
+:root{
+    --black: rgb(18, 15, 13);
+    --white: rgb(244, 239, 203);
+    --green: rgb(42, 203, 147);
+    --orange: rgb(229, 105, 23);
+
+}
+
+/* inizio stile navbar  */
+.navbar-custom{
+    z-index: 10;
+    height: 80px;
+    width: 100%;
+
+    transition: 0.65s;
+    /* background-color: var(--black); */
+}
+
+.navbar-custom:hover{
+    background-color: var(--black);
+}
+
+
+
+.logo-custom{
+   height: 60px;
+   padding-left: 12px;
+}
+
+
+
+.nav-link{
+    color: var(--green);
+    text-shadow: 1px 1px 2px var(--black),
+               -1px -1px 2px var(--black);
+    margin: 0 15px;
+    font-size: 20px;
+    transition: 0.45s;
+}
+
+.nav-link:hover{
+    color: var(--orange);
+}
+
+.nav-link:focus{
+    color: var(--orange);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--orange);
+}
+
+hr.dropdown-divider{
+    border-top:1px solid var(--white);
+}
+
+.fa-bars{
+    font-size: 40px;
+    color: var(--green);
+}
+
+.title-in-logo{
+    color: var(--white);
+    margin: 0;
+    text-shadow: 1px 1px 2px var(--orange),
+               -1px -1px 2px var(--orange);
+    transition: 0.55s;           
+}
+
+.title-in-logo:hover{
+    color: var(--orange);
+}
+
+
+
+.dropdown-item{
+    color: var(--white);
+}
+.dropdown-item:hover{
+    background-color: var(--green);
+}
+
+.show{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.navbar .container-fluid{
+    padding: 0;
+}
+/* fine stile navbar  */
+
+
+
+
+/* inizio css esterno video  */
+header {
+  position: relative;
+  
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--black);
+  opacity: 0.15;
+  z-index: 1;
+}
+/* fine css esterno video  */
+
+
+
+
+/* inizio stile header  */
+.custom-video-text{
+    color: var(--white);
+    padding-bottom:170px ;
+    text-shadow: 1px 1px 6px var(--orange),
+               -1px -1px 6px var(--orange)
+}
+
+
+/* fine sile header  */
+
+
+
+
+.card{
+    z-index: 1;
+    background-color: var(--white);
+    color: var(--black);
+    position: absolute;
+    top: 280px;
+    margin: 15px;
+}
