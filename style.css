@@ -157,7 +157,7 @@ header .overlay {
 }
 
 
-/* fine sile header  */
+/* fine stile header  */
 
 .separator {
   height: 60px;
@@ -165,6 +165,9 @@ header .overlay {
 }
 
 
+
+/* stile main  */
+/* inizio stile cards  */
 .card{
     
     background-color: var(--white);
@@ -182,6 +185,7 @@ div.card-header{
 
 .container-prodotti{
     min-height: 240vh;
+    background: linear-gradient(var(--black )5%, var(--white) 100%);
 }
 
 
@@ -214,35 +218,35 @@ div.card-header{
 
 .row-prodotto1{
     padding: 0;
-    /* height: 100%; */
     background: url(./media/dida1.jpg);
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
-    
+    border-radius: 20px;
 }
 
 .row-prodotto2{
     padding: 0;
-    /* height: 100%; */
     background: url(./media/dida2.jpg);
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 .row-prodotto3{
     padding: 0;
-    /* height: 100%; */
     background: url(./media/dida3.jpg);
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
+/* fine stile cards */
 
 
 
-
+/* inizio stile carusel */
 .slide1{
     width: 100%;
     height: 110vh;
@@ -250,6 +254,7 @@ div.card-header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20px 0px 20px 0px;
 }
 .slide2{
     width: 100%;
@@ -258,6 +263,7 @@ div.card-header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20px 0px 20px 0px;
 }
 .slide3{
     width: 100%;
@@ -266,38 +272,43 @@ div.card-header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20px 0px 20px 0px;
 }
 .slide4{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-image: url(./media/piant4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20px 0px 20px 0px;
 }
+/* fine stile carusel  */
 
 
 
+
+/* inizio stile accordion  */
 .accordion-carusel-wrapper{
     background-color: var(--white);
     color: var(--black);
 }
 
 .accordion-carusel-subtitle{
-    font-size: 80px;
+    
     color: var(--green);
     text-shadow: 1px 1px 4px var(--black),
                -1px 1px 4px var(--black);
     padding-left: 80px;           
 
 }
+/* fine stile accordion  */
 
 
 
 
 
-
-
+/* inizio stile divider con pulsantone */
 .divider-img{
     width: 100%;
     height: 100vh;
@@ -318,7 +329,7 @@ div.card-header{
     text-align: center;
     padding: 135px 0;
     text-transform: uppercase;
-    font-size: 30px;
+    /* font-size: 30px; */
     font-family:"Fredericka the Great", serif; 
     color: var(--white);
     text-shadow: 1px 1px 8px var(--orange),
@@ -331,4 +342,28 @@ div.card-header{
     color: var(--black);
     text-shadow: 1px 1px 0px var(--black),
                -1px -1px 0px var(--black);
+}
+/* fine stile divider con pulsantone */
+
+
+
+/* inizio stile form  */
+.form-custom-wrapper{
+    color: var(--white);
+    background: linear-gradient(rgba(18, 15, 13, 0.3), rgba(18, 15, 13, 0.7)) , url(./media/footer-ending-taglio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* fine stile form  */
+
+
+
+
+
+/* media query  */
+@media (max-width: 768px) {
+  .ruota-freccia {
+    transform: rotate(90deg); 
+  }
 }

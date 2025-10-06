@@ -21,6 +21,7 @@
 </head>
 
 
+
 <body>
     
     <!-- inizio navbar -->
@@ -133,8 +134,8 @@
     <main>
         
         <!-- inizio sezione macro schede prodotti -->
-        <section class="container-fluid   container-prodotti">
-            <div class="row align-items-center  flex-row-reverse  row-prodotto1  prodotti"  id="te-card">
+        <section class="container-fluid p-5    container-prodotti">
+            <div class="row align-items-center mb-5  flex-row-reverse  row-prodotto1  prodotti"  id="te-card">
                 <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-header">
@@ -149,8 +150,8 @@
             </div>
             
             
-            <div class="row align-items-center   row-prodotto2  prodotti"   id="tisana-card">
-                <div class="col-12 col-md-6">
+            <div class="row align-items-center mb-5   row-prodotto2  prodotti"   id="tisana-card">
+                <div class="col-12 col-md-6 ">
                     <div class="card">
                         <div class="card-header">
                             <h2 class="card-title">Prova totale relax</h2>
@@ -164,7 +165,7 @@
             </div>
             
             
-            <div class="row align-items-center  flex-row-reverse   row-prodotto3  prodotti"   id="freddo-card">
+            <div class="row align-items-center   flex-row-reverse   row-prodotto3  prodotti"   id="freddo-card">
                 <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-header">
@@ -190,13 +191,13 @@
         
         <section class="container-fluid pt-5  accordion-carusel-wrapper">
             
-            <h2 class=" pt-5   accordion-carusel-subtitle">Le nostre piantagioni</h2>
+            <h2 class="display-1 pt-5 px-5   accordion-carusel-subtitle">Le nostre piantagioni</h2>
             
             <div class="row ">
                 
                 <!-- inizio carusel -->
                 <div class="col-12 col-md-8   p-5">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleAutoplaying" class="carousel slide  " data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active   slide1">
                                 
@@ -329,25 +330,79 @@
         
         <!-- inizio divider per form -->
         <div class="divider-img">
-            <p class="divider-text">compila il form e <br>ricevi una teiera </p>  
+            <p class="divider-text  display-6">compila il form <br>e ricevi un <br> servizio da tè </p>  
         </div>
         <!-- fine divider per form -->
         
         
-        <section class="container">
+        
+        <!-- inizio form  -->
+        <footer class="container-fluid py-5    form-custom-wrapper">
             <div class="row">
-                <div class="col">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+
+                <div class="col-12 col-md-6    p-5 text-end ">
+                    <h3>Ricevi regolarmente prodotti da casa tua</h3>
+                    <h4>Inserisci qui tuoi dati</h4>
+                    <i class="fa-solid fa-arrow-right fa-4x    ruota-freccia"></i>
+                </div>
+
+                <div class="col-12 col-md-6   p-5">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputName4" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="inputName4" placeholder="Mario">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputSurnamel4" class="form-label">Cognome</label>
+                            <input type="text" class="form-control" id="inputSurname4" placeholder="Rossi">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="mariorossi@email.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+
+
+                        
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Città</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputState" class="form-label">Servizio da tè</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>scegli il tuo servizio</option>
+                                <option>Servizio 1</option>
+                                <option>Servizio 2</option>
+                                <option>Servizio 3</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">INVIA</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section>
+        </footer>
+        <!-- fine form  -->
     </main>
     
     
