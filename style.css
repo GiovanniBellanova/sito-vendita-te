@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     --white: rgb(244, 239, 203);
     --green: rgb(42, 203, 147);
     --orange: rgb(229, 105, 23);
-
+    
 }
 
 /* inizio stile navbar  */
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     z-index: 10;
     height: 80px;
     width: 100%;
-
+    
     transition: 0.65s;
     background-color: rgba(18, 15,13, 0.6);
 }
@@ -32,8 +32,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 
 .logo-custom{
-   height: 60px;
-   padding-left: 12px;
+    height: 60px;
+    padding-left: 12px;
 }
 
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .nav-link{
     color: var(--green);
     text-shadow: 1px 1px 2px var(--black),
-               -1px -1px 2px var(--black);
+    -1px -1px 2px var(--black);
     margin: 0 15px;
     font-size: 20px;
     transition: 0.45s;
@@ -72,7 +72,7 @@ hr.dropdown-divider{
     color: var(--white);
     margin: 0;
     text-shadow: 1px 1px 2px var(--orange),
-               -1px -1px 2px var(--orange);
+    -1px -1px 2px var(--orange);
     transition: 0.55s;           
 }
 
@@ -104,44 +104,44 @@ hr.dropdown-divider{
 
 /* inizio css esterno video  */
 header {
-  position: relative;
-  
-  height: 100vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
+    position: relative;
+    
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 header video {
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 header .container {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: var(--black);
-  opacity: 0.15;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    opacity: 0.15;
+    z-index: 1;
 }
 /* fine css esterno video  */
 
@@ -153,15 +153,15 @@ header .overlay {
     color: var(--white);
     padding-bottom:170px ;
     text-shadow: 1px 1px 6px var(--orange),
-               -1px -1px 6px var(--orange)
+    -1px -1px 6px var(--orange)
 }
 
 
 /* fine stile header  */
 
 .separator {
-  height: 60px;
-  background: linear-gradient(to right, transparent, var(--green), transparent);
+    height: 60px;
+    background: linear-gradient(to right, transparent, var(--green), transparent);
 }
 
 
@@ -184,6 +184,8 @@ div.card-header{
 
 
 .container-prodotti{
+    width: 100%;
+    
     min-height: 240vh;
     background: linear-gradient(var(--black )5%, var(--white) 100%);
 }
@@ -298,9 +300,35 @@ div.card-header{
     
     color: var(--green);
     text-shadow: 1px 1px 4px var(--black),
-               -1px 1px 4px var(--black);
+    -1px 1px 4px var(--black);
     padding-left: 80px;           
+}
 
+
+
+.accordion-button{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid black;
+}
+.accordion-button:hover{
+    background-color: var(--green);
+}
+.accordion-button:active{
+    background-color: var(--black);
+    color: var(--white);
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--green);
+    color: black;
+}
+
+.accordion-body{
+    background-color: var(--black);
+    color: var(--white);
+}
+.accordion-body code{
+    color: var(--orange);
 }
 /* fine stile accordion  */
 
@@ -329,19 +357,22 @@ div.card-header{
     text-align: center;
     padding: 135px 0;
     text-transform: uppercase;
-    /* font-size: 30px; */
     font-family:"Fredericka the Great", serif; 
     color: var(--white);
     text-shadow: 1px 1px 8px var(--orange),
-               -1px -1px 8px var(--orange);
+    -1px -1px 8px var(--orange);
     transition: 0.75s;
 }
+.divider-img a{
+    text-decoration: none;
+}
+
 .divider-text:hover{
     background: rgba(229, 105, 23, 0.7);
-
+    
     color: var(--black);
     text-shadow: 1px 1px 0px var(--black),
-               -1px -1px 0px var(--black);
+    -1px -1px 0px var(--black);
 }
 /* fine stile divider con pulsantone */
 
@@ -349,6 +380,8 @@ div.card-header{
 
 /* inizio stile form  */
 .form-custom-wrapper{
+    min-height: 80vh;
+    width: 100%;
     color: var(--white);
     background: linear-gradient(rgba(18, 15, 13, 0.3), rgba(18, 15, 13, 0.7)) , url(./media/footer-ending-taglio.jpg);
     background-size: cover;
@@ -363,7 +396,42 @@ div.card-header{
 
 /* media query  */
 @media (max-width: 768px) {
-  .ruota-freccia {
-    transform: rotate(90deg); 
-  }
+    .ruota-freccia {
+        transform: rotate(90deg); 
+    }
+}
+
+
+
+
+@media (max-width: 400px) {
+    
+    
+    h1.title-in-logo{
+        font-size: 1.1rem;
+    }
+    
+    
+    .card {
+        margin: 10px;
+    }
+    
+    .card .btn {
+        font-size: 1rem;
+    }
+    
+    
+    .divider-text {
+        width: 250px;
+        height: 250px;
+        padding: 80px 0;
+        font-size: 1rem;
+    }
+    
+    .accordion-carusel-subtitle {
+        font-size: 1.5rem;
+        padding-left: 20px;
+    }
+    
+    
 }

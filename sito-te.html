@@ -61,15 +61,15 @@
                     </li>
                     
                     <li class="nav-item mx-9 move-end">
-                        <a class="nav-link" href="#te-card">Scopri il tè</a>
+                        <a class="nav-link" href="#te">Scopri il tè</a>
                     </li>
                     
                     <li class="nav-item move-end">
-                        <a class="nav-link" href="#tisana-card">Scopri benessere</a>
+                        <a class="nav-link" href="#piantagioni">Le nostre piantagioni</a>
                     </li>
                     
                     <li class="nav-item move-end">
-                        <a class="nav-link" href="#freddo-card">Link</a>
+                        <a class="nav-link" href="#regali">Ricevi regali</a>
                     </li>
                     
                     <li class="nav-item nav-link move-end">
@@ -135,7 +135,7 @@
         
         <!-- inizio sezione macro schede prodotti -->
         <section class="container-fluid p-5    container-prodotti">
-            <div class="row align-items-center mb-5  flex-row-reverse  row-prodotto1  prodotti"  id="te-card">
+            <div class="row align-items-center mb-5  flex-row-reverse  row-prodotto1  prodotti"  id="te">
                 <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-header">
@@ -150,7 +150,7 @@
             </div>
             
             
-            <div class="row align-items-center mb-5   row-prodotto2  prodotti"   id="tisana-card">
+            <div class="row align-items-center mb-5   row-prodotto2  prodotti">
                 <div class="col-12 col-md-6 ">
                     <div class="card">
                         <div class="card-header">
@@ -165,7 +165,7 @@
             </div>
             
             
-            <div class="row align-items-center   flex-row-reverse   row-prodotto3  prodotti"   id="freddo-card">
+            <div class="row align-items-center   flex-row-reverse   row-prodotto3  prodotti">
                 <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-header">
@@ -173,7 +173,7 @@
                         </div>
                         <div class="card-body">                            
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde aspernatur, consequatur aperiam non deleniti! Praesentium iusto ipsam eos architecto!</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Tè freddi</a>
                         </div>
                     </div> 
                 </div>
@@ -189,7 +189,7 @@
         
         
         
-        <section class="container-fluid pt-5  accordion-carusel-wrapper">
+        <section class="container-fluid pt-5  accordion-carusel-wrapper"    id="piantagioni">
             
             <h2 class="display-1 pt-5 px-5   accordion-carusel-subtitle">Le nostre piantagioni</h2>
             
@@ -234,10 +234,25 @@
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         
                         
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #1
+                                    Accordion Item #2
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
@@ -246,26 +261,26 @@
                                     <!-- inizio accodion interno -->
                                     <div class="accordion accordion-flush   inner-accordion" id="accordionFlushExample">
                                         
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Accordion Item #1
-                                                </button>
-                                            </h2>
-                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
-                                            </div>
-                                        </div>
-                                        
                                         
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Accordion Item #2
+                                                    Accordion Item #1
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Accordion Item #2
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
                                             </div>
                                         </div>
                                         
@@ -283,21 +298,6 @@
                                     </div>
                                     <!-- fine accordion interno  -->
                                     
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #2
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                <div class="accordion-body">
-                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
                             </div>
                         </div>
@@ -329,35 +329,37 @@
         
         
         <!-- inizio divider per form -->
-        <div class="divider-img">
-            <p class="divider-text  display-6">compila il form <br>e ricevi un <br> servizio da tè </p>  
+        <div class="divider-img"       id="regali">
+            <a href="#form">
+                <p class="divider-text  display-6">compila il form <br>e ricevi un <br> servizio da tè </p>
+            </a>  
         </div>
         <!-- fine divider per form -->
         
         
         
         <!-- inizio form  -->
-        <footer class="container-fluid py-5    form-custom-wrapper">
+        <footer class="container-fluid py-5    form-custom-wrapper"      id="form">
             <div class="row">
-
+                
                 <div class="col-12 col-md-6    p-5 text-end ">
                     <h3>Ricevi regolarmente prodotti da casa tua</h3>
                     <h4>Inserisci qui tuoi dati</h4>
                     <i class="fa-solid fa-arrow-right fa-4x    ruota-freccia"></i>
                 </div>
-
+                
                 <div class="col-12 col-md-6   p-5">
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputName4" class="form-label">Nome</label>
                             <input type="text" class="form-control" id="inputName4" placeholder="Mario">
                         </div>
-
+                        
                         <div class="col-md-6">
                             <label for="inputSurnamel4" class="form-label">Cognome</label>
                             <input type="text" class="form-control" id="inputSurname4" placeholder="Rossi">
                         </div>
-
+                        
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email</label>
                             <input type="email" class="form-control" id="inputEmail4" placeholder="mariorossi@email.com">
@@ -370,8 +372,8 @@
                             <label for="inputAddress" class="form-label">Indirizzo</label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                         </div>
-
-
+                        
+                        
                         
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Città</label>
@@ -383,7 +385,6 @@
                                 <option selected>scegli il tuo servizio</option>
                                 <option>Servizio 1</option>
                                 <option>Servizio 2</option>
-                                <option>Servizio 3</option>
                             </select>
                         </div>
                         
