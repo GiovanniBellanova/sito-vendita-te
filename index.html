@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
     <!-- i miei fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Fredericka+the+Great&display=swap" rel="stylesheet">
     
     <!-- mia pagina stile -->
     <link rel="stylesheet" href="style.css">
@@ -96,14 +96,12 @@
     
     <!-- inizio header -->
     <!-- video esterno -->
-    <header class="header-video">
-        
-        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <header class="header-video">     
+
         <div class="overlay"></div>
-        
-        <!-- The HTML5 video element that will create the background video on the header -->
+
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="./media/video/video'tehd.mp4" type="video/mp4">
+            <source src="./media/video/video-tehd.mp4" type="video/mp4">
         </video>
         
         
@@ -117,7 +115,7 @@
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 custom-video-text">
                     <h1 class="display-1">Gli infusi di Joe</h1>
-                    <p class="lead mb-0">Using HTML5 and Bootstrap</p>
+                    <p class="lead mb-0">Dal mondo a casa tua, un sorso alla volta</p>
                 </div>
             </div>
         </div>
@@ -144,7 +142,9 @@
                             <h2 class="card-title">Centinaia di gusti diversi</h2>
                         </div>
                         <div class="card-body">                            
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde aspernatur, consequatur aperiam non deleniti! Praesentium iusto ipsam eos architecto!</p>
+                            <p class="card-text">
+                                Dalla Cina al Giappone, dall'India allo Sri Lanka: esplora la nostra collezione di oltre 200 varietà di tè, selezionate per offrirti un'esperienza unica ad ogni sorso!
+                            </p>
                             <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#modalTe">Scopri il tè</button>
                         </div>
                     </div> 
@@ -159,7 +159,9 @@
                             <h2 class="card-title">Prova totale relax</h2>
                         </div>
                         <div class="card-body">                            
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde aspernatur, consequatur aperiam non deleniti! Praesentium iusto ipsam eos architecto!</p>
+                            <p class="card-text">
+                                Lasciati avvolgere dal profumo delle nostre tisane rilassanti. Camomilla, lavanda, melissa e molto altro: una pausa di benessere tutta da scoprire, tazza dopo tazza.
+                            </p>
                             <button type="button" class="btn btn-primary"    data-bs-toggle="modal" data-bs-target="#modalTisane">Scopri benessere</button>
                         </div>
                     </div> 
@@ -174,7 +176,9 @@
                             <h2 class="card-title">Perfetto anche da freddo</h2>
                         </div>
                         <div class="card-body">                            
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde aspernatur, consequatur aperiam non deleniti! Praesentium iusto ipsam eos architecto!</p>
+                            <p class="card-text">
+                                Il tè non è solo una bevanda calda: scopri le nostre miscele pensate appositamente per essere gustate fredde, perfette per le giornate estive più afose!
+                            </p>
                             <button type="button" class="btn btn-primary"   data-bs-toggle="modal" data-bs-target="#modalFreddo">Tè freddi</button>
                         </div>
                     </div> 
@@ -241,13 +245,13 @@
                         
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #1
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                    La nostra storia
                                 </button>
                             </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                <div class="accordion-body">
-                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+                                <div class="accordion-body">                                    
+                                    <strong>La nostra storia inizia oltre vent'anni fa tra le colline della Toscana.</strong> Joe Infusi nasce dalla passione di un uomo per il tè e dalla volontà di portare in Italia le migliori varietà del mondo, rispettando tradizioni antiche e metodi di lavorazione artigianali.
                                 </div>
                             </div>
                         </div>
@@ -256,7 +260,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #2
+                                    Le nostre piantagioni
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
@@ -269,22 +273,26 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Accordion Item #1
+                                                    Darjeeling, India
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
+                                                <div class="accordion-body">
+                                                    <strong>Ogni foglia viene raccolta a mano dai nostri esperti.</strong> La raccolta manuale garantisce che solo le foglie più giovani e tenere vengano selezionate, preservando intatti tutti gli aromi e i principi attivi del tè.
+                                                </div>
                                             </div>
                                         </div>
                                         
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Accordion Item #2
+                                                    Uji, Giappone
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
+                                                <div class="accordion-body">
+                                                    <strong>Il processo di lavorazione è lungo e artigianale.</strong> Dopo la raccolta, le foglie vengono appassite, arrotolate e ossidate con cura. Ogni fase determina il carattere finale del tè, dal delicato <code>tè bianco</code> al robusto <code>tè nero</code>.
+                                                </div>
                                             </div>
                                         </div>
                                         
@@ -292,11 +300,13 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Accordion Item #3
+                                                    Nuwara Eliya, Sri Lanka
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                <div class="accordion-body">
+                                                    <strong>Le nostre piantagioni si trovano nelle regioni più fertili del mondo.</strong> Il clima umido e il terreno ricco di minerali creano le condizioni ideali per coltivare foglie di qualità eccezionale. Le varietà più pregiate provengono da <code>Darjeeling</code>, <code>Assam</code> e <code>Ceylon</code>.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -311,12 +321,12 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
+                                    La nostra filosofia
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                                 <div class="accordion-body">
-                                    <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>La sostenibilità è al centro di ogni nostra scelta.</strong> Collaboriamo solo con piantagioni certificate biologiche che rispettano l'ambiente e i lavoratori. Ogni acquisto contribuisce a sostenere comunità locali in <code>India</code>, <code>Giappone</code> e <code>Sri Lanka</code>.
                                 </div>
                             </div>
                         </div>
@@ -343,11 +353,11 @@
         
         
         <!-- inizio form  -->
-        <footer class="container-fluid py-5    form-custom-wrapper"      id="form">
+        <section class="container-fluid py-5    form-custom-wrapper"      id="form">
             <div class="row">
                 
                 <div class="col-12 col-md-6    p-5 text-end ">
-                    <h3>Ricevi regolarmente prodotti da casa tua</h3>
+                    <h3>Ricevi regolarmente i nostri prodotti a casa tua!</h3>
                     <h4>Inserisci qui tuoi dati</h4>
                     <i class="fa-solid fa-arrow-right fa-4x    ruota-freccia"></i>
                 </div>
@@ -356,39 +366,39 @@
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputName4" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="inputName4" placeholder="Mario">
+                            <input type="text" class="form-control" id="inputName4" autocomplete="given-name" placeholder="Mario">
                         </div>
                         
                         <div class="col-md-6">
-                            <label for="inputSurnamel4" class="form-label">Cognome</label>
-                            <input type="text" class="form-control" id="inputSurname4" placeholder="Rossi">
+                            <label for="inputSurname4" class="form-label">Cognome</label>
+                            <input type="text" class="form-control" id="inputSurname4" autocomplete="family-name" placeholder="Rossi">
                         </div>
                         
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="mariorossi@email.com">
+                            <input type="email" class="form-control" id="inputEmail4" autocomplete="email" placeholder="mariorossi@email.com">
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
+                            <input type="password" class="form-control" id="inputPassword4" autocomplete="new-password">
                         </div>
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Indirizzo</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            <input type="text" class="form-control" id="inputAddress" autocomplete="street-address" placeholder="1234 Main St">
                         </div>
                         
                         
                         
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Città</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" autocomplete="address-level2">
                         </div>
                         <div class="col-md-6">
                             <label for="inputState" class="form-label">Servizio da tè</label>
                             <select id="inputState" class="form-select">
                                 <option selected>scegli il tuo servizio</option>
-                                <option>Servizio 1</option>
-                                <option>Servizio 2</option>
+                                <option>Servizio in terracotta</option>
+                                <option>Servizio in porcellana</option>
                             </select>
                         </div>
                         
@@ -396,7 +406,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                 <label class="form-check-label" for="gridCheck">
-                                    Check me out
+                                    Accetto di ricevere comunicazioni promozionali
                                 </label>
                             </div>
                         </div>
@@ -406,7 +416,7 @@
                     </form>
                 </div>
             </div>
-        </footer>
+        </section>
         <!-- fine form  -->
     </main>
     
@@ -425,30 +435,42 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia velit ipsam enim, reprehenderit aut expedita saepe libero blanditiis. Nam porro id exercitationem magni mollitia, dolore impedit rem aliquam nihil.
+                    <p>
+                        Dal tè nero classico al verde sencha, passando per gli oolong taiwanese e i bianchi delicati: ogni foglia racconta una storia. Scopri la nostra selezione e trova il tuo preferito tra centinaia di gusti unici!
+                    </p>
+                    <p>
+                        Ogni tè è accompagnato da una scheda dettagliata con origini, profilo aromatico e consigli di preparazione, per guidarti nella scelta perfetta.
+                    </p>
+                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
-                    <button type="button" class="btn btn-primary">Sopri tutti i tè</button>
+                    <button type="button" class="btn btn-primary">Scopri tutti i tè</button>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="modal fade" id="modalTisane" tabindex="-1" aria-labelledby="modalTisane" aria-hidden="true">
+    <div class="modal fade" id="modalTisane" tabindex="-1" aria-labelledby="labelTisane" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="modalTisane">Le nostre tisane</h1>
+                    <h1 class="modal-title fs-5" id="labelTisane">Le nostre tisane</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia velit ipsam enim, reprehenderit aut expedita saepe libero blanditiis. Nam porro id exercitationem magni mollitia, dolore impedit rem aliquam nihil.
+                    <p>
+                        Le nostre tisane sono create con erbe officinali selezionate e coltivate naturalmente. Ogni miscela è pensata per portarti benessere e relax, dalla mattina alla sera. Lasciati coccolare da profumi e sapori autentici.
+                    </p>
+                    <p>
+                        Le nostre tisane sono disponibili in pratiche confezioni regalo, perfette per coccolare te stesso o sorprendere chi ami con un pensiero naturale e raffinato.
+                    </p>
+                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
-                    <button type="button" class="btn btn-primary">Sopri tutti i tè</button>
+                    <button type="button" class="btn btn-primary">Scopri tutti i tè</button>
                 </div>
             </div>
         </div>
@@ -463,11 +485,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia velit ipsam enim, reprehenderit aut expedita saepe libero blanditiis. Nam porro id exercitationem magni mollitia, dolore impedit rem aliquam nihil.
+                    <p>
+                        I nostri tè freddi sono la risposta perfetta alle giornate calde. Preparati con foglie pregiate e ingredienti naturali, sono dissetanti e ricchi di gusto. Prova le nostre miscele estive e scopri un nuovo modo di vivere il tè.
+                    </p>
+                    <p>
+                        Disponibili in versione già pronta o in foglie sfuse, i nostri tè freddi si preparano in pochi minuti e si conservano in frigorifero per un'intera giornata di freschezza.
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
-                    <button type="button" class="btn btn-primary">Sopri tutti i tè</button>
+                    <button type="button" class="btn btn-primary">Scopri tutti i tè</button>
                 </div>
             </div>
         </div>

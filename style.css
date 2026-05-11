@@ -159,10 +159,7 @@ header .overlay {
 
 /* fine stile header  */
 
-.separator {
-    height: 60px;
-    background: linear-gradient(to right, transparent, var(--green), transparent);
-}
+
 
 
 
@@ -388,6 +385,30 @@ div.card-header{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.form-check-input:checked
+
+ {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+
+/* stile form campi bianchi */
+.form-control{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+
+#inputState{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+
 /* fine stile form  */
 
 
